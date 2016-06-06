@@ -1,0 +1,12 @@
+{
+  "name": "serverless-react",
+  "custom": {
+    "client": {
+        "bucketName": "serverless-react"
+    }
+  },
+  "plugins": [
+    "serverless-cors-plugin",
+    "serverless-client-s3"
+  ]
+}
